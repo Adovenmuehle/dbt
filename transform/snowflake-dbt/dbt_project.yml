@@ -26,4 +26,9 @@ quoting:
 
 models:
   mm_snowflake:
-    tags: "nightly" 
+    tags: "nightly"
+
+seeds:
+  mm_snowflake:
+    enabled: true
+    schema: seed_data
