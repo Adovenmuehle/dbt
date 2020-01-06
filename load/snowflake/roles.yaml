@@ -30,8 +30,6 @@ roles:
     - permission_bot:
         warehouses:
             - analyst_xs
-        member_of:
-            - securityadmin
 
     - sysadmin:
         warehouses:
@@ -94,8 +92,6 @@ roles:
     - reporting:
         warehouses:
             - analyst_xs
-        member_of:
-            - reporting
         privileges:
             databases:
                 read:
@@ -113,8 +109,6 @@ roles:
     - loader:
         warehouses:
             - analyst_xs
-        member_of:
-            - loader
         privileges:
             databases:
                 read:
@@ -205,7 +199,6 @@ users:
         can_login: yes
         member_of:
             - permission_bot
-            - securityadmin
 
     - looker:
         can_login: yes
