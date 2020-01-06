@@ -29,6 +29,12 @@ models:
     tags: "nightly"
 
 seeds:
+  enabled: true
+  schema: seed_data
+  quote_columns: False
+
   mm_snowflake:
-    enabled: true
-    schema: seed_data
+    sys_vars:
+      schema: util
+    excludable_servers:
+      schema: mattermost
